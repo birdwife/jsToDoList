@@ -1,0 +1,93 @@
+body {
+	background-color: white;
+}
+
+.topText {
+	position: relative;
+	left: 9px;
+}
+
+
+.topSection {
+	background-color: orange;
+	background-image: url('egg4.png');
+	color: white;
+	margin: 10px;
+	padding: 100px;
+	padding-left:100px;
+	font-family: "Arial";
+}
+
+.inputBar {
+	background-color: white;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	width: 800px;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+.topSectionButton {
+	padding: 5px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	font-family: "Arial";
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	width: 100px;
+}
+
+::placeholder{
+	color: black;
+	font-size: 14px;
+	font-family: "Arial";
+}
+
+
+ul {
+	color: black;
+	margin: 0px;
+	font-size: 28px;
+	font-family: "Arial";
+	font-weight: Bold;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+ul li {
+	margin: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	right: 30px;
+
+
+}
+
+ul li:hover {
+	background-image: url('hhh4.png');
+	color: #ffa0db;
+}
+
+ul li.checked {
+	text-decoration: line-through;
+}
+
+.closeButton {
+	position: absolute;
+	right: 100px;
+	top: 20px;
+	
+
+}
+

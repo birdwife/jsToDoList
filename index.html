@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>TO DO LIST</title>
+</head>
+
+
+<body>
+
+<div class="topSection">
+<h3 class="topText"><font size="+20">TO DO LIST</font></h3>
+<p style:"font-size: 50px;">&nbsp;&nbsp;&nbsp;Add items, delete items or mark as complete</p>
+<input type:"text" class="inputBar" id="item1" placeholder="Please enter a task" onfocus="this.placeholder = ''">
+<button onclick= "newItem()" type="button" class="topSectionButton">ADD</button>
+</div>
+
+<ul id="toDoList">
+<li>item 1</li>
+<li class="checked">item 2</li>
+<li>item 3</li>
+<li class="checked">item 4</li>
+<li>item 5</li>
+<li>item 6</li>
+<li>item 7</li>
+<li>item 8</li>
+</ul>
+
+
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
